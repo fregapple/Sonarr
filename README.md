@@ -62,6 +62,10 @@ This generally happens on usenet indexers that include a tvdbId in releases that
 #### FIX_ANIME_SEASON_SEARCH
 
 This isnt working. having it enabled causes all interactive searches for season to return zero results. i can still search per episode and then filter by season pack. it also means on automatic search of an empty season, it doesnt grab any releases as its trying to look for season packs but returns nothing.
+
+
+
+
 Sonarr's default anime season search is **VERY** slow since it also searches for each episode individually. This setting allows you to bypass that and just search by season, which most indexers support. This significantly improves the search experience for anime.
 
 ## Contributing
